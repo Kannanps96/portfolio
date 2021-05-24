@@ -1,0 +1,104 @@
+
+
+@media only screen and (max-width:360px){
+        
+
+
+      
+
+   .education{
+       padding: 10px;
+   }
+
+  
+
+   
+
+}
+    
+
+@media only screen and (max-width:450px){
+
+.container{
+        width:95%;
+    }
+
+.aboutself{
+    width: 65%;
+    padding: 15px;
+
+}
+
+#edu{
+       margin: 5px;
+       font-size: 0.9rem;
+
+   }
+
+
+   .paragraph{
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 0px;
+    height: 100px;
+}
+
+
+
+#extras{
+    width: 50%;
+    font-size: 0.83rem;
+    
+}
+
+
+
+.lang{
+    margin: 2px;
+    font-size: 0.79rem;
+}
+
+.lang div:first-child{
+    width: 80%;
+}
+
+#int{
+    width: 50%;
+    font-size: 0.8rem;
+
+}
+
+
+}
+
+
+@media only screen and (max-width:800px){
+    
+.container{
+    width:95%;
+}
+
+.aboutself{
+width: 65%;
+padding: 15px;
+
+}
+
+.lang{
+    margin: 2px;
+    font-size: 0.79rem;
+}
+
+.lang div:first-child{
+    width: 80%;
+}
+
+#int{
+    width: 50%;
+    font-size: 0.8rem;
+
+}
+
+
+
+}

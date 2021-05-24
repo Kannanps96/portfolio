@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}  
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    font-size: 1rem;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    
+    
+}
+
+.mainsection{
+    width: 100%;
+    display: flex;
+    background-color: rgba(44, 75, 87, 0.87);
+    
+    
+}
+
+.aboutself{
+    width: 70%;
+    padding: 40px;
+
+}
+
+.listingorder{
+    list-style: none;
+}
+
+
+
+#title{
+    
+    color: rgb(63, 192, 243);
+    text-decoration:2px underline;
+}
+
+#name
+{
+    color: white;  
+}
+
+
+
+
+.passport{
+    width: 30%;
+    
+}
+
+img{
+    border-radius: 30%;
+    
+ 
+}
+
+.imageadjust{
+    width:60%;
+    height: 180px;
+    min-width: 112px;
+    border: 2px solid rgb(79, 196, 241);
+}
+
+.section1{
+    background-color:rgb(27, 31, 37);
+}
+
+.paragraph{
+   color: white;
+    height: 100px;
+    width: 90%;
+    padding-left: 40px;
+    padding-top: 10px;
+
+ 
+}
+
+#titleedu{
+    color: rgba(27, 44, 78, 0.925);
+    list-style: square;
+}
+
+
+.extradetails{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(27, 31, 37);
+    border: 2px solid white;
+
+   }
+
+#extras{
+    height: 25px;
+    color: white;
+    text-align: center;
+    width: 30%;
+    padding-top: 2px;
+    color: rgb(79, 196, 241);
+    font-style: italic;
+    
+    
+}
+
+
+.seperator{
+    padding: 5px;
+}
+
+.education{
+    display:flex;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+#edu{
+   
+    margin-left: 40px;
+}
+
+.header{
+    
+    height: 30px;
+    color: turquoise;
+    text-decoration: 2px underline;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+ 
+ 
+ 
+ .skillset{
+     display:flex;
+ }
+
+
+
+.frontend,.middleend{
+    width: 50%;
+
+
+}
+
+
+ .header1,.header2{
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 40%;
+}
+
+.lang{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+
+.skills{
+    width: 100%;
+
+}
+
+
+.lang div:first-child{
+    width: 30%;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+.lang div:last-child{
+    width: 60%;
+    
+}
+
+progress{
+    width: 100%;
+}
+
+
+.interests{
+    display: flex;
+    
+}
+
+#int{
+    width: 15%;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: grey;
+    padding-top: 7px;
+    border-radius: 20%;
+}
+.project1{
+    display: flex;
+    padding: 5px;
+}
+
+.personaldetails{
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+}
+
+.details{
+    display: flex;
+}
+
+.details div:first-child{
+    width: 40%;
+}
+
+.details div:last-child{
+    width: 60%;
+}
+
+
+.balancesection{
+    background-color: rgb(216, 226, 218);
+}
